@@ -1,5 +1,6 @@
 import Image from "next/image";
 import CustomButton from "@/components/button";
+import Link from "next/link";
 export default function Signout() {
   return (
     <div className="h-screen w-full bg-out bg-cover">
@@ -20,7 +21,9 @@ export default function Signout() {
           <p className="text-black/80 text-sm mb-10 font-medium">
             You will be directed to Netflix.com in 30 seconds.
           </p>
-          <CustomButton css="bg-blue-600 w-full h-10 text-white/90 font-medium rounded hover:bg-blue-500 px-3 py-1" />
+          <Link href="/">
+            <CustomButton css="bg-blue-600 w-full h-10 text-white/90 font-medium rounded hover:bg-blue-500 px-3 py-1" />
+          </Link>
         </div>
       </div>
     </div>
