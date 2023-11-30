@@ -40,7 +40,7 @@ export default function SignIn2() {
           </div>
           <CustomButton
             text="Next"
-            css="text-2xl  font-medium mt-5 px-3 py-4 w-2/6"
+            css="text-2xl bg-red-500 hover:bg-red-600 text-white/90  font-medium mt-5 px-3 py-4 w-2/6"
           />
         </div>
       </div>

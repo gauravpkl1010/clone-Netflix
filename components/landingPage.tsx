@@ -221,16 +221,18 @@ const LandingPage: React.FC = () => {
             <p className="text-sm text-white/70 hover:underline cursor-pointer">
               Privacy
             </p>
-            <p className="text-sm text-white/70 my-5 hover:underline  cursor-pointer">
-              Speed Test
-            </p>
+            <Link href="https://fast.com/">
+              <p className="text-sm text-white/70 my-5 hover:underline  cursor-pointer">
+                Speed Test
+              </p>
+            </Link>
             <div className="relative">
               <LuLanguages
                 size={15}
                 className="absolute top-2 left-1 text-white"
               />
               <select
-                className="h-7 text-center w-[112px] bg-black text-white rounded-md border-[1px] border-slate-500 px-4 outline outline-offset-[1px] outline-white/90 mb-5"
+                className="h-7 text-center w-[116px] bg-black text-white rounded-md border-[1px] border-slate-500 px-4 outline outline-offset-[1px] outline-white/90 mb-5"
                 id="simpleDropdown"
                 value={selectedValue || ""}
                 onChange={handleDropdownChange}
